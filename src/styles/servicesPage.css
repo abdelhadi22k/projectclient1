@@ -1,0 +1,152 @@
+.body {
+    font-family: sans-serif;
+    color: #610094;
+    color: #3f0071;
+    color: #150050;
+    color: #000;
+  } 
+.mainPageinfo{
+    width: 100%;
+    text-align: center;
+}
+.mainPageinfo p{
+    width: 70%;
+}
+  .servicesPage{
+    min-height: calc(100vh - 55px) ;
+    padding-top: 64px;
+    width: 100%;
+  }
+  .mainPageinfoColor{
+    color: #3f0071;
+  }
+
+  .serviceInfo{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-wrap: wrap;
+  }
+
+  .serviceBox{
+    margin: 16px auto;
+    overflow: hidden;
+    width: 330px;
+    height: 300px;
+    border:2px solid #150050 ;
+    border-radius: 8px;
+    transition: 0.5s;
+  }
+  .iconserviceBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconserviceBox i{
+    margin-top: 32px;
+    font-size: 60px;
+    color: #150050;
+}
+.infoserviceBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+  .infoserviceBox h6{
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+.infoserviceBox p{
+      font-size: 16px;
+      overflow: hidden;
+      
+  }
+.Containerservices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lastp{
+    width: 70%;
+}
+.serviceBox i {
+  transition: 0.5s;
+}
+
+.serviceBox p{
+  transition: 0.5s;
+  
+}
+.serviceBox:hover {
+  padding-top: 32px;
+background-color: #150050;
+color:#fff;
+/* display: none; */
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+transform: scale(1.1);
+}
+
+
+
+
+  .serviceBox:hover p{
+  transition: 0.5s;
+ display: none; 
+color:#ffffff;
+ display: block; 
+
+}
+
+.serviceBox:hover i{
+  transition: 0.5s;
+
+    color:#fff;
+    font-size: 34px;
+}  
+
+
+@media screen and (max-width: 390px) {
+
+
+  .serviceInfo{
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-wrap: wrap;
+  }
+  .lastp{
+    margin-top: 16px;
+  }
+.Containerservices{
+  padding: 5%;
+}
+
+}
+@media screen and (max-width: 768px) {
+
+  .serviceInfo{
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-wrap: wrap;
+  }
+  .lastp{
+    margin-top: 32px;
+  }
+}

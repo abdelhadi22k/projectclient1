@@ -1,0 +1,120 @@
+.color {
+  color: #610094;
+  color: #3f0071;
+  color: #150050;
+  color: #000;
+}
+
+.protfoloPage {
+  margin-top: 64px;
+  min-height: calc(100vh - 55px);
+}
+ .showcatgrys{
+  width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+ .catgry {
+  font-weight: 600;
+  background-color: #fff;
+  border: none;
+  margin: 8px 16px;
+  padding: 4px 8px;
+  border-radius: 8px;
+} 
+ .catgryactiv {
+  background-color: #ffffff;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  margin: 8px 8px;
+  padding: 4px 30px;
+  border-radius: 8px;
+} 
+
+.btnx {
+  transition: 0.5s;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  padding: 4px 8px;
+  background-color: #fff;
+  color: #000000;
+}
+
+.btnx:hover {
+  font-family: Almarai;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  border-radius: 11px;
+  border: none;
+  color: #fff;
+  background-color: #610094;
+}
+.btnx:focus {
+  color: #fff;
+  background-color: #150050;
+}
+.projectBox {
+  background-color: #000;
+  margin: 32px 32px;
+  z-index: 11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.projectBox img {
+  border-radius: 8px;
+  width: 250px;
+  height: 160px;
+  transition: 0.5s;
+}
+.projectBox:hover img {
+  opacity: 0.3;
+}
+.projectBox h6 {
+  position: absolute;
+  color: #fff;
+  display: none;
+  transition: 0.5s;
+}
+.projectBox:hover h6 {
+  position: absolute;
+  color: #fff;
+  display: block;
+}
+.projectContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.totalPages{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.PagesButton{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2px 8px;
+    margin: 8px;
+    color: #150050;
+    font-weight: 700;
+    border: none;
+}
+.PagesButton:focus{
+    color: #fff;
+    background-color: #150050;
+
+}

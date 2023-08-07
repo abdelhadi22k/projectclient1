@@ -1,0 +1,106 @@
+.aboutPage {
+  color: #fff;
+}
+
+.aboutPageblir {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000;
+  opacity: 0.8;
+  /* filter: blur(4px); */
+ }  
+   
+.infoAboutUs {
+  margin: auto auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: auto;
+}
+
+.aboutInfo p {
+  padding: 0 16px;
+  opacity: 0.6;
+}
+.aboutInfo h6 {
+  padding: 16px;
+  opacity: 0.8;
+  font-size: 24px;
+}
+.ourinfoimg {
+  margin-top: 20px;
+}
+.ourinfo {
+  margin: 16px auto;
+
+  opacity: 1;
+  background-color: #0f0f0f !important;
+  width: 550px;
+  height: 440px;
+}
+.ourExpereans {
+  margin-top: 2vh;
+  width: 550px;
+  min-height: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px auto;
+  justify-content: space-between;
+}
+.ourExpereans p {
+
+  padding: 0 16px;
+  opacity: 0.6;
+}
+.titleExpereans {
+  display: flex;
+}
+.titleExpereans div {
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin: 16px;
+}
+.titleExpereans h6 {
+  padding: 16px;
+  opacity: 0.8;
+  font-size: 24px;
+}
+.titleExpereans p {
+  padding: 0 16px;
+  opacity: 0.6;
+}
+
+.aboutExpereans {
+  background-color: #0f0f0f !important;
+  max-width: 550px;
+  min-height: 145px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}  
+@media screen and (max-width: 390px) {
+  .aboutInfo{
+    text-align: center;
+  }
+  .aboutExpereans {
+    margin:16px 0px;
+  }  
+
+}
+@media (min-width: 390px) and (max-width: 768px) {
+  .aboutInfo{
+    text-align: center;
+  }
+  .aboutExpereans {
+    margin:16px 0px;
+  }  
+
+}

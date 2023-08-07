@@ -1,0 +1,75 @@
+.body {
+  font-family: sans-serif;
+  color: #610094;
+  color: #3f0071;
+  color: #150050;
+  color: #000;
+}
+
+.navebar { 
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 1111111111;
+}
+.nevebarlogo {
+  height:37px;
+  transition: 0.2s;
+}
+.nevebarlogo:hover {
+  transform: scale(1.2);
+}
+.linkContener {
+  margin: auto;
+}
+.navbarlink {
+    margin: 0 4px;
+  padding: 4px 8px;
+  color: #fff;
+}
+.navbarlink:focus {
+  color: #fff;
+  padding: 4px 8px;
+  background-color: #3f0071;
+  border-radius: 8px;
+}
+.navbarSubscribe {
+  padding: 4px 8px;
+  color: #fff;
+}
+.navbarSubscribe:focus {
+  color: #fff;
+  padding: 4px 8px;
+  background-color: #3f0071;
+  border-radius: 8px;
+}
+.navbarSubscribe:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 390px) {
+  .navebar {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 1111111111;
+  }
+}
+
+
+ @media (min-width:0) and (max-width:296px){
+  .navebar {
+    background-color: #000;
+    position: fixed;
+    /* width:296px; */
+    z-index: 1111111111;
+  }
+} 
+
+
+
+/* @media (min-width: 950px) and ( max-width: 1150px){
+
+
+}  */
+

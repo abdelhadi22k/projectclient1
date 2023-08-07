@@ -1,0 +1,161 @@
+/* .homePage{
+  width: 360px;
+} */
+.color {
+  color: #610094;
+  color: #3f0071;
+  color: #150050;
+  color: #000;
+}
+.homePage{
+  min-height:100vh  ;
+  background-color: #000;
+  color: #fff;
+}
+.mainInfoHolder{
+  padding:50px 0px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.colinfo {
+  text-align: start;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.colinfo h1 {
+  font-size: 64px;
+  margin-bottom: 32px;
+}
+.colinfo h1 span {
+  color: #361a83;
+}
+.colinfo p {
+  opacity: 0.5;
+  margin-bottom: 32px;
+}
+.colLinkone {
+  padding: 4px 6px;
+  background-color: #150050;
+  border-radius: 6px;
+  border: 1px solid #150050;
+  margin-right: 32px;
+  cursor: pointer;
+}
+.colLinktow {
+  padding: 4px 6px;
+  border-radius: 6px;
+  border: 1px solid #150050;
+  margin-right: 32px;
+  cursor: pointer;
+}
+.colImeg {
+  text-align: start;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+}
+.colLink{
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: start;
+}
+.colImeg img {
+  width: 35vw;
+}
+
+@media (min-width: 0) and (max-width: 296px) {
+
+  .colinfo {
+    width: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+}
+
+
+@media screen and (max-width: 390px) {
+ 
+
+  .mainInfoHolder{
+    padding:50px 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  .colinfo {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .colLink{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .colImeg {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .colImeg img {
+    width: 60vw;
+  }
+  
+
+}
+@media (min-width: 390px) and (max-width: 768px) {
+  .mainInfoHolder{
+    padding:50px 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  .colinfo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .colLink{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .colImeg {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .colImeg img {
+    width: 60vw;
+  }
+  
+  
+}
+
